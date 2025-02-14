@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font_OpenSans{
+    font-family: Open Sans, 'sans-sherif';
+}
+.font_Rajdhani{
+    font-family: "Rajdhani", serif;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.font_Cambria{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+select > option{
+    color: #FEFEFE;
+    background-color: #292929;
+}
+body{
+    width: 110%;
+    height: 180vh;
+    overflow: auto;
+}
+.SignUp{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+body::-webkit-scrollbar {
+    display: none; 
+  }
+.LeftContainer{
+    width: 50%;
+    height: 100%;
+    background-color: #292929;
+    padding: 2% 6% 1% 6%;
+}
+.Image{
+    width: 50%;
+    height: 100%;
+    background-image: url(SignUpImage.png);
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_container{
+    width: 100%;
+    height: 100%;
+}
+.icon_container{
+    width: 100%;
+    height: 7%;
+}
+.container1{
+    width: 100%;
+    height: 80%;
+    /* background-color:burlywood; */
+}
+
+.main_container > .container1{
+    display: flex;
+    flex-direction: column;
+}
+.nav_container{
+    height: 8%;
+    display: flex;
+    padding: 0 24% 0 24%;
+    /* background-color: brown; */
+}
+.input_container{
+     height: 93%;
+    /* height: 100%;
+    padding: 2% 8% 2% 8%;
+    background-color:thistle; */
+}
+.button_style{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* padding: 13px 30px 13px 30px; */
+    width: 45%;
+    text-align: center;
+    border: none;
+    font-weight: 550;
+    background-color: #EBA832;
+    font-size: 140%;
+    border-radius: 2%;
+    transition: 0.5s;
+    font-family: "Rajdhani", serif;
+}
+.signInButton{
+    background-color: #FFFFFF1A;
+    color: #FFFFFF4D;   
+    
+}
+.signUpButton{
+    color:#FEFEFE;
+}
+label{
+    /* background-color: antiquewhite; */
+    color: #FFFFFFE5;
+    font-size: 85%;
+    margin-bottom: 2%;
+}
+label > span{
+    color: red;
+}
+.input_fields{
+    height: 66%;
+    /* background-color: #EBA832; */
+}
+.input_box, .input2{
+    /* height: 40%; */
+    padding: 5% 0 0 0;
+    margin-bottom: 1.5%;
+    /* height: 0%; */
+    /* background-color: beige; */
+}
+.input_box{
+    height: 18%;
+    justify-content: space-between;
+    /* background-color: #EBA832;    */
+}
+.input2{
+    height: 10%;
+    /* background-color: blueviolet; */
+}
+.input2 > .password{
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.input2 > .password > input[type=password]{
+    width: 100%;
+    
+}
+.input2 > .password > img{
+    position: absolute;
+    /* left: 20%; */
+    top: 25%;
+    right: 5%;
+}
+input[type = text], input[type=password], select , input[type=tel] {
+    font-size: 90%;
+    background-color: transparent;
+    color: #FFFFFF80;
+    padding: 3% 0 3% 3.3%;
+    border: 1px solid #444;
+}
+.Phonenumber{
+    padding: 5% 0 0 0;
+    /* justify-content: space-between; */
+    /* background-color: tomato; */
+    
+}
+.Phonenumber > .input_box{
+    padding:  3% 0 0 0;
+    /* background-color: #EBA832; */
+}
+.Phonenumber > .input_box > select{
+    width: 18%;
+    
+}
+input[type=tel]{
+    width: 80%;
+}
+
+.CheckBoxes{
+    /* margin-top: 10; */
+    justify-content: space-between;
+    height: 14%;
+    /* background-color: tomato; */
+}
+.CheckBoxes > .item{
+    margin-left: 1%;
+}
+.CheckBoxes > .item > p{
+    color: #FFFFFF;
+    font-size: 80%;
+    margin-left: 2%;
+}
+.CheckBoxes > .item > p > span{
+    color: #EBA832;
+    }
+
+.button_fields{
+    margin-top: 8%;
+    width: 100%;
+    height: 23%;
+    justify-content: space-between;
+    /* background-color: aquamarine;     */
+}
+.button_fields > .message{
+    width: 100%;
+    /* background-color: azure; */
+    padding-top: 2%;
+    height: 10%;
+    position: relative;
+}
+.button_fields > .message > p{
+    color: #FEFEFE;
+    font-size: 85%;
+    position: absolute;
+    left:46%;
+    bottom: 5%;
+    width: 5%;
+    padding: 0 6% 0 2%;
+    background-color: #292929;
+    /* top:24%  ;
+    left: 46%; */
+}
+.button_fields > .message > hr{
+    height: 2%;
+    border: 1px solid #FFFFFF26;
+}
+
+.button_fields > button{
+    font-size: 110%;
+    width: 100%;
+    height: 33%;
+}
+.button_fields > .signUpGoogle_Button{
+    background-color: #FFFFFF;
+    border: 1px solid #1111111A;
+    /* padding: 0 0 18px 0; */
+    /* he */
+    /* text-align: center; */
+}
+.button_fields > .signUpGoogle_Button > span{
+    height: 100%;
+}
+.button_fields > .signUpGoogle_Button > span > .message{
+    position: relative;
+    bottom: 10%;
+}
+.button_fields > .signUpGoogle_Button > span > img{
+    position: relative;
+    left: 1%; 
+    width:6%;
+}
+.HaveAccMessage{
+    padding: 5% 0 0 0;
+    height: 10%;
+    justify-content: center;
+    /* background-color: tomato; */
+}
+.HaveAccMessage p{
+    color: #FFFFFF;
+    font-size: 88%;
+}
+.HaveAccMessage > p > a{
+    color: #EBA832;
+    text-decoration: none;
+}

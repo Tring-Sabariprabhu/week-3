@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+        <div class="SignUp">
+            <div class="LeftContainer">
+                <div class="main_container">
+                    <div class="icon_container">
+                        <img src="tringapps-copy-2.svg" alt="" >
+                    </div>
+                    <div class="container1" >
+                        <div class="nav_container">
+                            <button class="button_style signInButton font_Rajdhani cursor_pointer" onclick="locateToSignInPage()">Sign In</button>
+                            <button class="button_style signUpButton font_Rajdhani cursor_pointer">Sign Up</button>
+                        </div>
+                        <form action="" class="input_container" id="Form">
+                            <div class="input_fields" >
+                                <div class="input_box flex_column ">
+                                    <label for="" class="font_Rajdhani">Your Name<span>*</span></label>
+                                    <input type="text" class="font_OpenSans" name="name" id="name" placeholder="Enter your name" required>
+                                </div>
+                                <div class="input_box flex_column ">
+                                    <label for="" class="font_Rajdhani">Email<span>*</span></label>
+                                    <input type="text" class="font_OpenSans" name="" id="email" placeholder="Enter email" required>
+                                </div>
+                                
+                                <div class="input_box flex_column ">
+                                    <label for="" class="font_Rajdhani">Languages</label>
+                                    <select name="" id="" class="font_OpenSans" id="languages">
+                                        <option >Select an option</option>
+                                        <option >Tamil</option>
+                                        <option >English</option>
+                                        <option >Hindi</option>
+                                    </select>
+                                </div>
+                                <div class="Phonenumber">
+                                    <label for="" class="font_Rajdhani">Phone number</label>
+                                    <div class="flex_row input_box" >    
+                                        <select name="" id=""  class="font_OpenSans">
+                                            <option value="">+91</option>
+                                            <option value="">+1</option>
+                                        </select>
+                                        <input type="tel" class="font_OpenSans" name="" id="phonenumber" required placeholder="Phone number">
+                                    </div>
+                                </div>
+                                
+                                <div class="input2 flex_column">
+                                    <label for="" class="font_Rajdhani " >Password</label>
+                                    <div class="password flex_row">
+                                        <input type="password" class="font_OpenSans" name="" id="password" placeholder="Enter password" required>
+                                        <img src="Visibility off.svg" class="cursor_pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input_box CheckBoxes flex_column">
+                                <div class="check1 item flex_row">
+                                    <input type="checkbox"  name="" id="" required>
+                                    <p class="font_OpenSans"> Remember me</p>
+                                </div>
+                                <div class="check2 item flex_row">
+                                    <input type="checkbox" name="" id="" required>
+                                    <p class="font_OpenSans"> I'm agree to all <span>Terms</span> and <span>Privacy policy</span></p>
+                                </div>
+                                <div class="check3 item flex_row">
+                                    <input type="radio" name="" id="" required>
+                                    <p class="font_OpenSans">I'm Over 18+</p>
+                                </div>
+                            </div>
+                            <div class="button_fields flex_column" >
+                                <button type="submit" class="button_style submit_Button font_OpenSans cursor_pointer" > Submit</button>
+                                <div class="message "><p class="font_OpenSans">OR</p> <hr> </div>                        
+                                <button class="button_style signUpGoogle_Button font_OpenSans cursor_pointer"> <span class="message">Sign Up with</span><img src="ic_google.svg" alt="" ></span></button>
+                            </div>
+                            <div class="HaveAccMessage flex_row font_OpenSans">
+                                <p>Have an Account?<a href="" onclick="locateToSignInPage()">  Sign In</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="Image RightContainer">
+            </div>
+        </div>
+</body>
+<script src="Script.js"></script>
+</html>
