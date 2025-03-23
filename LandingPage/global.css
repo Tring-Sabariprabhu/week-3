@@ -1,0 +1,65 @@
+.button{
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: #EBA832;
+    border-radius: 2%;
+    transition: 0.5s;
+    font-family: "Rajdhani", serif;
+}
+a{
+    position: relative;
+    text-decoration: none; 
+  }
+  
+  a::after {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    width: 0;
+    height: 12%;
+    background-color: #EBA832;
+    transition: ease-in-out width 0.6s;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+
+.button:hover{
+    background-color: #e8b04f;
+}
+
+.font_OpenSans{
+    font-family: Open Sans, 'sans-sherif';
+}
+.font_Rajdhani{
+    font-family: "Rajdhani", serif;
+}
+.HeadingContainer{
+    display: flex;
+}
+ .HeadingContainer > .Heading > .Heading1{
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-transform: uppercase;
+}
+.HeadingContainer > .Heading > .Heading2{
+    width: 150%;
+    margin-top: 4%;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.HeadingContainer  > .Content {
+    margin-top: 3%;
+    font-size: 16px;
+    margin-left: 20%;
+    letter-spacing: 1.1px;
+}
+ .HeadingContainer  > .Content > p{
+    line-height: 25px;
+}
